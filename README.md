@@ -1,11 +1,13 @@
 ## Cost Forecasting in a Multi-Account Organization
 
-TODO: Fill this README out!
+This solution automates a very cumbersome process of getting cost forecast data, from a multi-account organization and their corresponding regions, and presenting the data in a single pane of glass, in AWS QuickSight, or any compatible 3rd party BI tool. 
 
-Be sure to:
+## Installation
+Please use the included CloudFormation script to deploy the solution.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Solution Architecture
+![image](./CE-Forecasts-Solution-Architecture.PNG)
+
 
 ## Security
 
