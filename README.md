@@ -69,11 +69,28 @@ For easy reference to resources created in Glue, or S3, please see the “Output
 **S3URIForecastResultsQuickSight:**  S3 URI of forecast results for QuickSight <br/>
 **S3URIForecastResultsExcel:**  S3 URI of forecast results for Excel <br/>
 
+## Visualizing cost forecasting data 
+To visualize your cost forecasting data, make sure the Lambda function is invoked at least once by EventBridge. To do a quick test, you may trigger the Lambda function manually from the AWS management console, or via CLI to make sure cost forecasting data is available in S3.  
+
+### Amazon QuickSight
+To use QuickSight for visualizing your data, you need to create a new dataset from the Athena table that was created after deploying the solution. For step-by-step instructions, see
+
+Creating a dataset using Amazon Athena data
+https://docs.aws.amazon.com/quicksight/latest/user/create-a-data-set-athena.html
+
+### Amazon Athena
+
+To use Athena to query the data, connect to the Glue database, and select the Glue table from the Athena console. The Glue database and table to use in Athena are listed in the Outputs section of the CloudFormation stack.
+
+### MS Excel
+
+To visualize forecasting data as clustered stacked charts in Excel, download the file from the S3 location referenced by the S3URIForecastResultsExcel key in the Outputs section of your CloudFormation stack.
+
+To create clustered stacked charts in Excel, see
+https://www.youtube.com/watch?v=ukgSW_Xhtes
 
 
-
-
-
+## Contributions
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
