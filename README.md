@@ -84,7 +84,7 @@ To use Athena to query the data, connect to the Glue database, and select the Gl
 
 ### MS Excel
 
-To visualize forecasting data as clustered stacked charts in Excel, download the file from the S3 location referenced by the S3URIForecastResultsExcel key in the Outputs section of your CloudFormation stack.
+To visualize forecasting data as clustered stacked charts in Excel, download the file from the S3 location referenced by the **S3URIForecastResultsExcel** key in the Outputs section of your CloudFormation stack.
 
 To create clustered stacked charts in Excel, see
 https://www.youtube.com/watch?v=ukgSW_Xhtes
