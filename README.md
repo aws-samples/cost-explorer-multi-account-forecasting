@@ -2,7 +2,7 @@
 
 This solution enables users to get cost forecast data from a multi-account organization, and visualize it in a single pane of glass, in AWS QuickSight, MS Excel, or any compatible 3rd party BI tool. 
 
-Using the Cost Explorer console to get cost forecasting data across all accounts, and their corresponding regions, in a multi-account organization, is a cumbersome and error prone process. For a multi-account organization, users do not have the ability to get cost forecasts data from Cost Explorer, in a single query, and “group by” any attribute, such as, accounts, regions, forecast month, etc. 
+Using the Cost Explorer console to get cost forecasting data across all accounts, and their corresponding regions, in a multi-account organization, is a cumbersome, manual and error prone process. For a multi-account organization, users do not have the ability to get cost forecasts data from Cost Explorer, in a single query, and “group by” any attribute, such as, accounts, regions, forecast month, etc. 
 
 Once deployed, this solution automatically collects all cost forecasting data at a predefined schedule (daily/weekly) from cost explorer, transforms the output to be easily queried or “grouped by” in Athena, visualized in QuickSight or any compatible 3rd party BI tool, or very simply visualized as clustered, stacked charts in MS Excel. 
 
