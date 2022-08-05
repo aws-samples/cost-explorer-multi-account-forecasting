@@ -1,4 +1,4 @@
-## Cost Forecasting in a Multi-Account Organization
+# Cost Forecasting in a Multi-Account Organization
 
 This solution enables users to get cost forecast data from a multi-account organization, and visualize it in a single pane of glass, in AWS QuickSight, MS Excel, or any compatible 3rd party BI tool. 
 
